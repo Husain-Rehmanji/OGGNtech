@@ -9,13 +9,15 @@ const Header = () => {
   const handleMenuClick = () => {
     setClick(false);
   };
-
+  const getContainerClassName = (path) => {
+    return location.pathname === path ? 'nav-container active' : 'nav-container';
+  };
   return (
     <>
       <div className='fixed-header-container'>
         <header>
           <nav className='flexSB'>
-            <div className="nav-container">
+          <div className={getContainerClassName('/')}>
               <div className="logo">
                 <h1>OGGNtech</h1>
               </div>
@@ -83,5 +85,4 @@ const Header = () => {
     </>
   );
 };
-
 export default Header;
