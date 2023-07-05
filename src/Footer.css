@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -132,4 +132,12 @@
     font-size: 21px;
     font-weight: 200;
     color: #fff;
+  } */
+
+  .location-icon {
+    vertical-align: middle;
+    margin-right: 5px;
   }
+  
+  
+  
