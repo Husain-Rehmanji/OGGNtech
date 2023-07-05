@@ -10,12 +10,13 @@ const EventCard = ({ icon, name, ri, description, date }) => {
         width: '75%',
         margin: '0 auto',
         marginBottom: '2rem',
-        border: '2px solid #1eb2a6',
+        border: '2px solid #38a9d6',
         boxShadow: '0 12px 14px rgba(0, 0, 0, 0.25)',
         display: 'flex',
-        background: 'linear-gradient(to right, white 40%, #1eb2a6)',
+        background: 'linear-gradient(to right, white 40%, #38a9d6)',
         alignItems: 'center',
         padding: '1rem',
+        boxShadow: '6px 5px 12px #29208c',
       }}
     >
       <div style={{ marginRight: '2.5rem' }}>

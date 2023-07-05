@@ -47,7 +47,7 @@ const contentContainerStyle = {
 };
 
 const headingStyle = {
-  color: '#1eb2a6',
+  color: '#38a9d6',
   marginTop: '40px',
 };
 

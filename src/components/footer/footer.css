@@ -8,7 +8,7 @@
 .noclash{
     position: relative;
     width: 100%;
-    background-color: #1eb2a6;
+    background-color: #0a2864;
     padding: 10px 30px;
 }
 .webfooter{
@@ -95,8 +95,8 @@
   }
   
   .newsletter input[type='email'] {
-    padding: 5px;
-    width: 200px;
+    padding: 3px;
+    width: 180px;
     margin-right: 10px;
     border-radius: 4px;
     border: none;
@@ -104,7 +104,7 @@
   
   .newsletter button {
     padding: 5px 10px;
-    background-color: #1eb2a6;
+    background-color: #38a9d6;
     color: #ffffff;
     border:  #ffffff00;
     border-radius: 4px;

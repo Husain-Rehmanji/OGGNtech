@@ -58,7 +58,7 @@ const ProjCard = () => {
                 className='outline-btn'
                 onClick={() => openModal(val)}
                 style={{
-                  backgroundColor: '#1eb2a6'
+                  backgroundColor: '#1e4ab2'
                 }}
               >
                 <h4>View</h4>
@@ -101,7 +101,7 @@ const ProjCard = () => {
                 className='outline-btn'
                 onClick={() => openModal(val)}
                 style={{
-                  backgroundColor: '#1eb2a6'
+                  backgroundColor: '#1e4ab2'
                 }}
               >
                 <h4>View</h4>
@@ -144,7 +144,7 @@ const ProjCard = () => {
                 className='outline-btn'
                 onClick={() => openModal(val)}
                 style={{
-                  backgroundColor: '#1eb2a6'
+                  backgroundColor: '#1e4ab2'
                 }}
               >
                 <h4>View</h4>

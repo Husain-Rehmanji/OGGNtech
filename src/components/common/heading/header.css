@@ -3,13 +3,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 85px;
+  height: 88px;
   z-index: 999;
-  background-color: #808080;
+  background-color: #0a2864;
 }
 .nav-container {
   height: 85px;
-  background-color: #1eb2a6;
+  background-color: #38a9d6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,12 +25,19 @@
   padding: 20px 0;
   color: #fff;
 }
-
-.logo h1 {
-  font-size: 30px;
-  font-weight: 500;
+.logo{
+  background-color: #0a2864;
+  height: 83px;
 }
-
+.logo img{
+  height: 86px;
+  object-fit: cover;
+  object-position: center;
+  transition: all 0.2s;
+}
+.logo img:hover{
+  transform: scale(1.16);
+}
 .head .icon {
   margin-left: 10px;
 }
@@ -52,9 +59,11 @@ header ul {
 
 header li {
   margin-right: 40px;
-  
+  transition: 0.5s;
 }
-
+header li:hover{
+  transform: scale(0.9);
+}
 header ul li a {
   color: #fff;
   font-weight: 500;
@@ -63,12 +72,13 @@ header ul li a {
 }
 
 header ul li a:hover {
-  color: #1eb2a6;
+  color: #38a9d6;
+  transform: scale(0.9);
 }
 
 header ul li a.active {
   color: white;
-  background-color: #1eb2a6;
+  background-color: #38a9d6;
   display: inline-block;
   padding: 10px 17px;
   border-radius: 10px;
@@ -76,7 +86,7 @@ header ul li a.active {
 }
 
 .start {
-  background-color: #1eb2a6;
+  background-color: #38a9d6;
   padding: 30px 70px;
   color: #fff;
   clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
@@ -96,7 +106,7 @@ header ul li a.active {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  background-color: #1eb2a6;
+  background-color: #38a9d6;
   color: white;
   border: none;
   border-radius: 4px;
@@ -105,13 +115,16 @@ header ul li a.active {
 }
 
 /* Hover effect */
+.star{
+  transition: all 0.3s;
+}
 .star:hover {
-  background-color: #004f49;
+  transform: scale(0.9);
 }
 
 /* Active effect */
 .star:active {
-  background-color: #1eb2a6;
+  background-color: #38a9d6;
 }
 
 @media screen and (max-width: 768px) {
@@ -120,7 +133,7 @@ header ul li a.active {
   }
   header {
     margin: 0;
-    background-color: #1eb2a6;
+    background-color: #38a9d6;
     position: relative;
   }
   header ul.flexSB {
@@ -144,6 +157,6 @@ header ul li a.active {
     top: 7vh;
     left: 0;
     width: 100%;
-    background-color: #1eb2a6;
+    background-color: #38a9d6;
   }
 }

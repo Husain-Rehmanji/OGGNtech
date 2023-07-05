@@ -3,8 +3,8 @@ import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
 const ContactCard = () => {
   return (
-    <section style={{ padding: "9rem 0 5rem 0", color: "#1eb2a6", background: "white" }}>
-      <div style={{ backgroundColor: "#1eb2a6", padding: "1rem 0" }}>
+    <section style={{ padding: "9rem 0 5rem 0", color: "#1e4ab2", background: "white" }}>
+      <div style={{ backgroundColor: "#1e4ab2", padding: "1rem 0" }}>
         <h1 style={{ color: "white", textAlign: "center" }}>Get in Touch</h1>
       </div>
 
@@ -45,14 +45,14 @@ const ContactCard = () => {
               <input
                 type="submit"
                 value="Send"
-                style={{ marginTop: "2rem", marginBottom: "3.5rem", cursor: "pointer", transition: "all 0.2s", backgroundColor: "#1eb2a6", color: "white", padding: "1rem 2rem", border: "none", borderRadius: "4px" }}
+                style={{ marginTop: "2rem", marginBottom: "3.5rem", cursor: "pointer", transition: "all 0.2s", backgroundColor: "#1e4ab2", color: "white", padding: "1rem 2rem", border: "none", borderRadius: "4px" }}
               />
             </form>
           </div>
         </div>
       </div>
 
-      <div style={{ backgroundColor: "#1eb2a6", padding: "1rem 0" }}>
+      <div style={{ backgroundColor: "#1e4ab2", padding: "1rem 0" }}>
         <div style={{ display: "flex", justifyContent: "center", gap: "6rem", fontSize: '25' }}>
           <div >
             <p style={{ color: "white", textAlign: "center" }}><FaEnvelope /> EMAIL US - <a href = "mailto: oggntech@gmail.com" style={{color: "white"}}>oggntech@gmail.com</a></p>
@@ -63,7 +63,7 @@ const ContactCard = () => {
         </div>
       </div>
 
-      <h1 style={{ backgroundColor: "white", padding: "1rem 0", marginTop: "2rem", color: "#1eb2a6", textAlign: "center", fontSize: "40px" }}><FaMapMarkerAlt /> Reach us Here</h1>
+      <h1 style={{ backgroundColor: "white", padding: "1rem 0", marginTop: "2rem", color: "#1e4ab2", textAlign: "center", fontSize: "40px" }}><FaMapMarkerAlt /> Reach us Here</h1>
 
       <div style={{ margin: "0.2rem", display: "flex", justifyContent: "center" }}>
         <iframe

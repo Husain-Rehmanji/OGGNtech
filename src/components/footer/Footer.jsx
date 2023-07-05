@@ -38,7 +38,7 @@ const Footer = () => {
           <form action="#" method="POST" className="NewsLetter">
               <input type="email" name='Email' placeholder="Enter your email" required/>  
               <input type="submit" value="Join Now" className='button' style={{
-                backgroundColor: '#1eb2a6',
+                backgroundColor: '#38a9d6',
                 color: '#ffffff',
                 marginLeft: '10px',
                 border:  '#ffffff00',

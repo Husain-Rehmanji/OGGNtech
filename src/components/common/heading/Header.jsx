@@ -19,7 +19,7 @@ const Header = () => {
           <nav className='flexSB'>
           <div className={getContainerClassName('/')}>
               <div className="logo">
-                <h1>OGGNtech</h1>
+                <img src="../../../images/logo.jpeg" alt='hghxgh'/>
               </div>
             </div>
 

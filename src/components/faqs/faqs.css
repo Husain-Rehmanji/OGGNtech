@@ -4,9 +4,13 @@
     margin-top: 4%;
     margin-bottom: 4%;
   }
+  .faq .box:hover {
+    transform: scale(0.95);
+  }
   .faq .box {
     background-color: #fff;
     margin-bottom: 20px;
+    transition: all 0.2s;
   }
   .faq button {
     padding: 0;
@@ -23,6 +27,7 @@
     padding: 20px;
   }
   .faq .accordion:hover {
-    background-color: #1eb2a6;
-    color: #fff;
+    cursor: pointer;
+    color: #29208c;
+    
   }
